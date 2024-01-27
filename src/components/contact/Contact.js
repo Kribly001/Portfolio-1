@@ -4,7 +4,7 @@
 
 //Modulos
 //Estilos
-import './Footer.css'
+import './Contact.css'
 //Componentes
 //Core
  
@@ -12,7 +12,7 @@ import './Footer.css'
                         LOGICA
 ###########################################################*/ 
 
-const Footer = (props) => { //Funcion constructora
+const Contact = (props) => { //Funcion constructora
 
    
     //Retorno que se va a renderizar
@@ -27,4 +27,4 @@ const Footer = (props) => { //Funcion constructora
 /*#########################################################
                         EXPORTACION
 ###########################################################*/ 
-export default Footer
+export default Contact

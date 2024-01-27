@@ -4,7 +4,7 @@
 
 //Modulos
 //Estilos
-import './Footer.css'
+import './Experience.css'
 //Componentes
 //Core
  
@@ -12,7 +12,7 @@ import './Footer.css'
                         LOGICA
 ###########################################################*/ 
 
-const Footer = (props) => { //Funcion constructora
+const Experience = (props) => { //Funcion constructora
 
    
     //Retorno que se va a renderizar
@@ -27,4 +27,4 @@ const Footer = (props) => { //Funcion constructora
 /*#########################################################
                         EXPORTACION
 ###########################################################*/ 
-export default Footer
+export default Experience

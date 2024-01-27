@@ -4,7 +4,7 @@
 
 //Modulos
 //Estilos
-import './Footer.css'
+import './Home.css'
 //Componentes
 //Core
  
@@ -12,14 +12,14 @@ import './Footer.css'
                         LOGICA
 ###########################################################*/ 
 
-const Footer = (props) => { //Funcion constructora
+const Home = (props) => { //Funcion constructora
 
    
     //Retorno que se va a renderizar
     return(
-     <div>
+      <main>
 
-     </div>
+      </main>
     )
 }
 
@@ -27,4 +27,4 @@ const Footer = (props) => { //Funcion constructora
 /*#########################################################
                         EXPORTACION
 ###########################################################*/ 
-export default Footer
+export default Home
