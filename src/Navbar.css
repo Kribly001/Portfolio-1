@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@700&display=swap');
+
+/* Estilo general del Navbar */
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to right, #dd00ff, #61dafb); /* Cambia los colores según tus preferencias */
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+/* Estilo de la marca (brand) */
+.brand {
+  font-size: 2rem; /* Tamaño de la fuente aumentado */
+  font-weight: bold;
+  letter-spacing: 1px; /* Espaciado entre letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave para resaltar la marca */
+}
+
+/* Estilo del botón de alternar (toggle button) en modo responsive */
+.toggle-btn {
+  border: none;
+  background-color: #61dafb;
+  padding: 8px; /* Espaciado interior del botón */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.toggle-btn .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+/* Estilo de los enlaces de navegación */
+.nav-link {
+  color: #ffffff;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease; /* Añadir transición a color y transformación */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Color de resaltado al pasar el ratón */
+  transform: scale(1.1) rotate(-5deg); /* Efecto de rotación y escala al pasar el ratón */
+}
