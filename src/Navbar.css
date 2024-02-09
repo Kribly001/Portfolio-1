@@ -21,6 +21,12 @@
   font-weight: bold;
   letter-spacing: 1px; /* Espaciado entre letras */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave para resaltar la marca */
+  color: #ffffff; /* Color del texto */
+  transition: color 0.3s ease; /* Agregar transición al color */
+}
+
+.brand:hover {
+  color: #ffcc00; /* Cambiar el color al pasar el ratón */
 }
 
 /* Estilo del botón de alternar (toggle button) en modo responsive */
@@ -47,3 +53,11 @@
   color: #ffcc00; /* Color de resaltado al pasar el ratón */
   transform: scale(1.1) rotate(-5deg); /* Efecto de rotación y escala al pasar el ratón */
 }
+
+
+.code-bracket-icon {
+  width: 1.9rem; /* Ajusta el tamaño según tus preferencias */
+  height: 1.9rem;
+}
+
+/* ... (otros estilos) ... */

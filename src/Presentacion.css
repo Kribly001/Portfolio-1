@@ -1,0 +1,50 @@
+/* Presentacion.css */
+
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg,black, #6dd5fa);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .text-container {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    max-width: 80vw; /* Limita el ancho del contenedor de texto */
+  }
+  
+  .text-container strong {
+    color: #3498db;
+  }
+  
+  .image-container {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .presentation-container {
+      padding: 20px; /* Agrega un poco de espacio en los bordes */
+    }
+  
+    .text-container {
+      max-width: 100%; /* Utiliza el ancho completo en pantallas más pequeñas */
+    }
+  }
+  
+  
